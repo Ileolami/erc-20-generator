@@ -61,13 +61,13 @@ const TokenCreator = () => {
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto my-48 rounded-xl shadow-md border space-y-4">
-      <h2 className="text-xl font-semibold text-center">Cross-Chain ERC-20 Token Maker</h2>
+    <div className="glass-background p-4 max-w-md mx-auto my-48 rounded-xl shadow-md border space-y-4">
+      <h2 className="text-xl font-semibold text-center">ERC-20 Token Maker</h2>
 
       {!walletConnected ? (
         <button
           onClick={handleConnectWallet}
-          className="w-full bg-green-600 text-white p-2 rounded hover:bg-green-700 sh"
+          className="w-full bg-green-600 text-white p-2 rounded hover:bg-green-700 shadow-2xl"
         >
           Connect Wallet
         </button>

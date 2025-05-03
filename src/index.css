@@ -21,3 +21,18 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+/* Glass background effect */
+.glass-background {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* Optional: Add a gradient background to the body for better glass effect */
+body {
+  background: linear-gradient(135deg, #162c8f 0%, #6e2c95d7 100%);
+  min-height: 100vh;
+}
+
