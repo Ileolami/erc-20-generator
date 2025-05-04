@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { networks } from "./config/networks";
-import { connectWallet, switchNetwork } from "./services/walletService";
-import { deployToken, addTokenToWallet } from "./services/tokenService";
+import { connectWallet, switchNetwork } from "./utils/wallet";
+import { deployToken, addTokenToWallet } from "./utils/token";
 
 const TokenCreator = () => {
   const [form, setForm] = useState({
